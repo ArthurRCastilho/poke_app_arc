@@ -1,6 +1,6 @@
 
 ## Telas
-<img src="https://github.com/ArthurRCastilho/poke_app_arc/tree/main/assets/readme/imgs/HomeScreen.PNG" width="250px"> <img src="https://github.com/ArthurRCastilho/poke_app_arc/tree/main/assets/readme/imgs/SideBar.PNG" width="250px"> <img src="https://github.com/ArthurRCastilho/poke_app_arc/tree/main/assets/readme/imgs/PokemonScreen.PNG" width="250px">
+<img src="./assets/readme/imgs/HomeScreen.PNG" width="250px"> <img src="./assets/readme/imgs/SideBar.PNG" width="250px"> <img src="./assets/readme/imgs/PokemonScreen.PNG" width="250px"> 
 
 [Mais imagens podem ser encontradas aqui](https://github.com/arthurlavidali/poke_app_arc/tree/main/assets/readme/imgs)
 
@@ -37,7 +37,7 @@ No caso do meu aplicativo utilizei LottieFiles.<br>
 - **Animações Implícitas e Explícitas:** Utilização de `AnimatedPositioned`.
 - **LottieFiles:** Integração
 
-<img src="https://github.com/ArthurRCastilho/poke_app_arc/tree/main/assets/readme/gifs/Diglett.gif" width="250px">
+<img src="./assets/readme/gifs/Diglett.gif" width="250px">
 
 ### Transformações
 
@@ -45,16 +45,16 @@ Dentre as tranformações utilizei (Todas são mostradas com a SideBar aberta):
 - Escala para diminuir o tamanho da tela enquando a SideBar esta aberta;
 - Translação para mover a tela para a direita;
 - Matrix4 para dar um efeito 3D na tela.
-<img src="https://github.com/ArthurRCastilho/poke_app_arc/tree/main/assets/readme/gifs/SideBar.gif" width="250px">
+<img src="./assets/readme/gifs/SideBar.gif" width="250px">
 
 ### Scroll Infinito
 
 Para o Scroll Infinito foi utilizando o ScrollController dentro da GridView para identificar quando está próximo ao fim da lista, para poder fazer uma nova requisição a API e solicitar mais Pokemons para apresentação.
 
-<img src="https://github.com/ArthurRCastilho/poke_app_arc/tree/main/assets/readme/gifs/InfinityScroll.gif" width="250px">
+<img src="./assets/readme/gifs/InfinityScroll.gif" width="250px">
 
 ### Imagens em Cache
 
 Utilizado para evitar carregar imagens de URL já carregadas anteriormente, melhorando a performance do aplicativo
 
-<img src="https://github.com/ArthurRCastilho/poke_app_arc/tree/main/assets/readme/gifs/ImageCache.gif" width="250px">
+<img src="./assets/readme/gifs/ImageCache.gif" width="250px">
